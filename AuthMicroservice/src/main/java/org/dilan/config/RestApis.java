@@ -1,6 +1,6 @@
 package org.dilan.config;
 
-public class ReastApis {
+public class RestApis {
   public static final String DEVELOPER = "/dev";
   public static final String TEST = "/test";
   public static final String RELEASE = "/prod";
@@ -10,4 +10,6 @@ public class ReastApis {
 
   public static final String REGISTER = "/register";
   public static final String LOGIN = "/login";
+
+  public static final String CREATE_USER = "/create-user";
 }

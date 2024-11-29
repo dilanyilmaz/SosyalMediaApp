@@ -1,2 +1,9 @@
-package org.dilan.repository;public interface MyGenericRepository {
+package org.dilan.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.NoRepositoryBean;
+
+@NoRepositoryBean
+public interface MyGenericRepository<T,ID> extends JpaRepository<T,ID> {
+
 }
