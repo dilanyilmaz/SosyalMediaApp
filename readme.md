@@ -27,3 +27,20 @@ docker run --name microservice-redis -p 6379:6379 -d redis
 ```bash
 docker run --name redis-gui -d -p 8001:8001 redislabs/redisinsight:1.14.0
 ```
+
+## Dockerfile ile image oluşturmak
+
+1-localinizde çalışacak imajlar için kullanım
+````bash
+docker build -t configserver:v01 .
+````
+2-docker hub üzerinde yayınlanacak ise
+````bash
+docker build -t dlan1907/egitimconfigserver:v.0.1 .
+````
+````bash
+docker build -t dlan1907/egitimauth:v.0.1 .
+````
+````bash
+docker build -t dlan1907/egitimuser:v.0.1 .
+````
