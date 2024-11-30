@@ -1,5 +1,5 @@
 server:
-  port: 8880
+  port: 8800
 
 spring:
   application:
@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: "https://github.com/dilanyilmaz/microservice-e-itim-config-server.git"
+          uri: "https://github.com/dilanyilmaz/microservice-egitim-config-server.git"
           default-label: "main"
           skip-ssl-validation: true
           username: "dilanyilmaz"
